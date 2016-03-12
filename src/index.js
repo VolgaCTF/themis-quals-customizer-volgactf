@@ -57,4 +57,12 @@ export default class DefaultCustomizer {
       return path.join(__dirname, '..', 'images', imagePath)
     })
   }
+
+  getFonts () {
+    return []
+  }
+
+  getStylesheets () {
+    return []
+  }
 }
